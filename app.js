@@ -4,7 +4,7 @@
 $(document).ready(function(){
 
     $('body').on({ 'mousemove' : function( e ){
-        console.clear()
+        // console.clear()
         let clientX =  e.originalEvent.clientX 
         let clientY =  e.originalEvent.clientY 
         $('#cursor').css({
@@ -20,4 +20,6 @@ $(document).ready(function(){
                 $('#cursor').removeClass('mini')
                 }})
 
-})
+            })
+            
+            
